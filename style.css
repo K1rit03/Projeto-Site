@@ -1,0 +1,25 @@
+/* Estilos para a grade dos sites favoritos */
+#sites-favoritos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+/* Estilos para as imagens dos sites favoritos */
+#sites-favoritos img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para os títulos dos cursos */
+.cursos h1 {
+    font-family: "Roboto", sans-serif; /* Fonte Roboto */
+    color: #000000bb; /* Cinza escuro para os títulos */
+}
+
+/* Estilos para os parágrafos dos cursos */
+.curso  {
+    font-family: "Roboto", sans-serif; /* Fonte Roboto */
+    color: #ac0000; /* Cinza médio para os parágrafos */
+}
