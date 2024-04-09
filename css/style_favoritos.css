@@ -1,0 +1,14 @@
+/* Estilos para a grade dos sites favoritos */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+/* Estilos para as imagens dos sites favoritos */
+.grid-item img {
+    
+    height: 200px;
+   width:  200px; /* Limitando a largura máxima das imagens */
+}

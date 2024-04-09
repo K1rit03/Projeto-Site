@@ -1,0 +1,31 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono&display=swap');
+body {
+    font-family: 'Reddit Mono', monospace; /* Aplicar a fonte Reddit Mono */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização de imagens */
+.curso-img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Outros estilos conforme necessário */
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor padrão do texto */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+a:hover {
+    color: #000000; /* Muda a cor do texto quando o mouse passa por cima */
+    background-color: #ff0000; /* Muda a cor de fundo quando o mouse passa por cima */
+}
