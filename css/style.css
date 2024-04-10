@@ -4,8 +4,8 @@ body {
     font-family: 'Reddit Mono', monospace; /* Aplicar a fonte Reddit Mono */
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
-    background-color: #ffffffef;
+    color: #ff0000;
+    background-color: #000000ef;
     margin: 50px;
     padding: 0;
     
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-    color: #000000; /* Muda a cor do texto quando o mouse passa por cima */
+    color: #ffffff; /* Muda a cor do texto quando o mouse passa por cima */
     background-color: #ff0000; /* Muda a cor de fundo quando o mouse passa por cima */
 }
 
